@@ -20,7 +20,6 @@ export const getStaticProps = async (context) => {
   };
 };
 const NinjaDetail = ({ ninja }) => {
-  console.log(ninja);
   return (
     <>
       <h1>{ninja.name}</h1>
